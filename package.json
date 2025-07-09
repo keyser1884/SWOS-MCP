@@ -1,0 +1,37 @@
+{
+  "name": "swos-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server providing access to Sensible World of Soccer database for player and team analysis",
+  "type": "module",
+  "main": "swos-server.js",
+  "author": "keyser1884",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "swos",
+    "sensible-world-of-soccer",
+    "football",
+    "database",
+    "claude"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keyser1884/SWOS-MCP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keyser1884/SWOS-MCP/issues"
+  },
+  "homepage": "https://github.com/keyser1884/SWOS-MCP#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "sqlite3": "^5.1.6"
+  },
+  "scripts": {
+    "start": "node swos-server.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  }
+}
